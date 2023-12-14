@@ -2,7 +2,7 @@ import React from "react";
 
 const TabelaBody = props => (
   <tbody>
-    {props.livros.map((livro,index)=(
+    {props.livros.map((livro,index)=>(
       <tr key={livro.id}>
         <td>{livro.id}</td>
         <td>{livro.titulo}</td>
