@@ -28,7 +28,7 @@ class App extends Component {
       <table className="tabela">
         <TabelaHead />
         <TabelaFoot />
-        <TabelaBody />
+        <TabelaBody livros={this.state.livros} />
       </table>
     );
   }
